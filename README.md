@@ -19,8 +19,8 @@ https://cloud.flowiseai.com/chatbot/dd4cfe94-a6c4-4ec3-b0ab-985d5bfa2f3e
 | Component | Technology Used |
 |------------|----------------|
 | Platform | Flowise Cloud |
-| LLM | Groq GPT-OSS-20B |
-| Embedding Model | BAAI/bge-base-en-v1.5| 
+| LLM | cerebras GPT-OSS-20B |
+| Embedding Model | BAAI/bge-base-en-v1.5(Huggingface)| 
 | Vector Database | Qdrant |
 | Memory | Buffer Window Memory |
 | Retrieval Method | Vector Similarity Search |
@@ -176,13 +176,12 @@ Include:
 
 ## Challenges Faced
 
-- Large CSV dataset retrieval
-- Policy and supplier data separation
+- Large CSV dataset retrieval and ingestion 
 - Tool routing accuracy
 
 ## Future Improvements
 
-- SQL analytics 
+- SQL based retrival for analytical queries 
 
 
 ## Author
