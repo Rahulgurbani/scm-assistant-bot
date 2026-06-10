@@ -181,7 +181,9 @@ Include:
 
 ## Future Improvements
 
-- SQL based retrival for analytical queries 
+- SQL based retrival for analytical queries
+- token cost reduction
+  
 
 
 ## Author
